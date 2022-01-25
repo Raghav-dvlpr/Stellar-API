@@ -28,7 +28,7 @@ Written in: C++, Go, Java, JavaScript, Python, Ruby
 1. Clone the repository:
 
 ```bash
-  git clone https://github.com/Raghav_dvlpr/stellar-api.git
+  git clone https://github.com/Raghav-dvlpr/Stellar-API.git
   
   cd stellar-api
 ```
