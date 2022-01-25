@@ -1,0 +1,14 @@
+TO CREATE RANDOM KEYPAIR(ACCOUNT ID AND SECRET KEY) = node scripts/create-keypair.js
+TO CREATE ACCOUNT                                   = node scripts/create-account.js
+TO CHECK BALANCE                                    = node scripts/check-balance.js
+TO MAKE PAYMENTS                                    = node scripts/send-payments.js
+TO GET TRANSACTION HISTORY                          = node scripts/transcation_history.js
+
+FOR Testing purpose You use Scripts for test folder
+Response is fully Raw Json Type
+
+TO CREATE RANDOM KEYPAIR(ACCOUNT ID AND SECRET KEY) = node Scripts_for_test/create-keypair.js
+TO CREATE ACCOUNT                                   = node Scripts_for_test/create-account.js
+TO CHECK BALANCE                                    = node Scripts_for_test/check-balance.js
+TO MAKE PAYMENTS                                    = node Scripts_for_test/send-payments.js
+TO GET TRANSACTION HISTORY                          = node Scripts_for_test/transcation_history.js

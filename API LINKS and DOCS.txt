@@ -1,0 +1,51 @@
+localhost:3004/createkeypair
+localhost:3004/createaccount
+localhost:3004/checkbalance
+localhost:3004/Sendpayment
+localhost:3004/transactionhistory
+
+
+_______  API DOCS _________
+
+createkeypair : Request > localhost:3004/createkeypair
+Response:
+{
+    "message": "Generated successfully....",
+    "Account_ID_PublicKey": "GDZ5KKEWEVMLWGSOQI3NN7VV3OMJUXWURRI2NQ6XFFW24O4GMXVTE2D3",
+    "Secret_Key": "SB6CJPYAAAIZBZFLVFOONHJ3HZLUZCYETHDQSMUCEKHGIJ4ZRUVVSIZL"
+}
+
+createaccount  : Request > localhost:3004/createaccount
+Response:
+{
+    "message": "SUCCESS! You have a new account :)"
+}
+
+checkbalance : Request > localhost:3004/checkbalance
+Response :
+{
+    "Account_Address": "GDJZJS3QC36SE5DKCALEQ5TDQTKQFZBIPWXKZ4VBXTNC3KVIUFTVCWA4",
+    "Balance": " 10000.0000000 Lumens"
+}
+
+Sendpayment : Request > localhost:3004/Sendpayment
+Response :
+{
+    "Transaction_Hash": "2d086fbf224ccfb96a74ce1af3a99ab045479a4ff4079a79677786bab8bd2383",
+    "Transaction_Hash_Link": "https://horizon-testnet.stellar.org/transactions/2d086fbf224ccfb96a74ce1af3a99ab045479a4ff4079a79677786bab8bd2383"
+}
+
+transactionhistory : Request > localhost:3004/transactionhistory
+Response :
+{
+    "Transaction_History": [
+        "Page 1: ",
+        "Record Length:  3",
+        "Transaction 0 Hash e0ae39cda37dae68aa36b571beb59f2b2bffb2e7eeac37bb9cef10fe65116299",
+        "Transaction 1 Hash 7f4ac1f7825c09c9afdf1477088312ed1afb5fcfed008136f7885a89c3699b3c",
+        "Transaction 2 Hash 2d086fbf224ccfb96a74ce1af3a99ab045479a4ff4079a79677786bab8bd2383",
+        "Page 2: ",
+        "Record Length:  0",
+        ""
+    ]
+}
